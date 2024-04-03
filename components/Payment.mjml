@@ -1,0 +1,22 @@
+        <mj-raw>
+        <!--Payment Section-->
+        </mj-raw> 
+        <mj-section background-color="#FFFFFF">
+            <mj-column>
+                <mj-text css-class="location" font-family="Raleway" color="#333">
+                    <p style="font-size: 18px; font-weight: 800;">Where It's Going:</p>
+                    <p style="font-size: 16px; font-weight: 800;">John Doe</p>
+                    <p style="font-size: 16px; font-weight: 300; margin: 0px; margin-bottom: 3px;">1234 Main Road</p>
+                    <p style="font-size: 16px; font-weight: 300; margin: 0px; margin-bottom: 3px;">56789, California</p>
+                    <p style="font-size: 16px; font-weight: 300; margin: 0px; margin-bottom: 3px;">310-222-5555</p>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text font-family="Raleway" color="#333">
+                    <p style="font-size: 18px; font-weight: 800;">Payment</p>
+                    <p style="font-size: 26px; font-weight: 700; color: #d19fc2;">$46.99</p>
+                    <p style="font-size: 16px; font-weight: 300; margin: 0px; margin-bottom: 3px;">Visa Card</p>
+                    <p style="font-size: 16px; font-weight: 300; margin: 0px; margin-bottom: 3px;">**** **** **** **13</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>

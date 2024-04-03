@@ -1,0 +1,15 @@
+        <mj-raw>
+        <!--Hero Section-->
+        </mj-raw>
+        <mj-section background-color="#9fd1ae">
+            <mj-column>
+                <mj-image width="350px" href="https://www.example.com/" src="https://i.postimg.cc/gr9gFZ2y/Burger-Walking-image.png" alt="walking burger image" />
+                <mj-text font-family="Raleway" align="center" color="#333">
+                   <h1 style="font-size: 38px;">Your Order Is To Cool To Wait</h1>
+                    <p style="font-size: 18px;">Lorem Ipsum is simply dummy text of the printing
+                    & typesetting industry.</p>
+                </mj-text> 
+                <mj-button background-color="#FFFFFF" color="#333" font-size="16px" font-weight="500">
+                Track Your Order</mj-button>
+            </mj-column>
+        </mj-section>

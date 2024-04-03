@@ -1,0 +1,51 @@
+        <mj-raw>
+        <!--Order Section-->
+        </mj-raw>
+        <mj-section background-color="#FFFFFF">
+            <mj-column>
+                <mj-image src="https://i.postimg.cc/7ZNr9xKt/Fatty-Burger.png" alt="Image of a burger" />
+            </mj-column>
+            <mj-column>
+                <mj-text>
+                    <p style="font-size: 18px">Fatty Burger x2</p>
+                    <p style="font-size: 14px">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text>
+                    <p style="font-size: 18px">$46.99</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#FFFFFF">
+            <mj-column>
+                <mj-image src="https://i.postimg.cc/1z5hYLTm/Poke-Special.png" alt="Image of a poke bowl" />
+            </mj-column>
+            <mj-column>
+                <mj-text>
+                    <p style="font-size: 18px">Poke Special x1</p>
+                    <p style="font-size: 14px">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text>
+                    <p style="font-size: 18px">$46.99</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#FFFFFF">
+            <mj-column>
+                <mj-image  src="https://i.postimg.cc/DzjkVxkq/New-Yorker-Pizza.png" alt="Image of a New York Pizza" />
+            </mj-column>
+            <mj-column>
+                <mj-text>
+                    <p style="font-size: 18px">New York Pizza x1</p>
+                    <p style="font-size: 14px">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text>
+                    <p style="font-size: 18px">$46.99</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>

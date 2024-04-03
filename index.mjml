@@ -1,0 +1,105 @@
+<mjml>
+    <mj-head>
+        <mj-style inline="inline">
+        </mj-style>
+        <mj-style>
+        body {
+            font-size: 16px;
+            font-family: "Raleway", sans-serif;
+        }
+        </mj-style>
+        <mj-font name="Raleway" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" />
+    </mj-head>
+    <mj-body background-color="#9fd1ae">
+
+        <mj-raw>
+        <!--Top Section-->
+        </mj-raw>
+        <mj-section background-color="#9fd1ae">
+            <mj-column>
+                <mj-image width="200px" href="https://www.example.com/" src="https://i.postimg.cc/bJJCQP5n/Burger-Logo.png" alt="Logo" />
+            </mj-column>
+        </mj-section>
+
+        <mj-include path="./components/HeroSection.mjml" />
+
+        <mj-include path="./components/Payment.mjml" />
+
+        <mj-include path="./components/Divider.mjml" />
+
+        <mj-include path="./components/OrderSection.mjml" />
+
+        <mj-include path="./components/Divider.mjml" />
+
+        <mj-raw>
+        <!--Total Section-->
+        </mj-raw>
+        <mj-section background-color="#FFFFFF">
+            <mj-column>
+                <mj-text>
+                    <p style="font-size: 14px;">Order Subtotal:</p>
+                    <p style="font-size: 14px;">Delivery:</p>
+                    <p style="font-size: 14px;">Tax:</p>
+                    <p style="font-size: 18px;">Order Total:</p>
+                </mj-text>
+                <mj-button align="left" background-color="#d19fc2" color="#FFFFFF" font-weight="300">Download Invoice</mj-button>
+            </mj-column>
+            <mj-column>
+                <mj-text>
+                    <p style="font-size: 14px;">$46.99</p>
+                    <p style="font-size: 14px;">Free</p>
+                    <p style="font-size: 14px;">$3.00</p>
+                    <p style="font-size: 18px; color: #d19fc2;">$49.99</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-include path="./components/Divider.mjml" />
+
+        <mj-raw>
+        <!--20% Off-->
+        </mj-raw>
+        <mj-section background-color="#8cb698">
+            <mj-column>
+                <mj-image  padding-top="20px" width="220px" src="https://i.postimg.cc/zXKrLwKr/Coins.png" alt="Gold coins" />
+                <mj-text color="#FFFFFF" align="center">
+                <p style="font-size: 24px;">Order From Our Mobile App</p>
+                <p style="font-size: 24px;">To Receive 20% Off Your Next Order</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#8cb698">
+            <mj-column>
+                <mj-image align="right" width="220px"  src="https://i.postimg.cc/B6VhpyWV/App-Store-Badge.png" alt="App Store Icon" />
+            </mj-column>
+            <mj-column>
+                <mj-image align="left" width="220px"  src="https://i.postimg.cc/J7ym8Cht/Google-Play-Badge.png" alt="Google Play Icon" />
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+        <!--Footer-->
+        </mj-raw>
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    <p style="font-size: 18px; font-weight: 800; color: #33563c;">Social Media</p>
+                    <p style="font-size: 12px; color: #33563c;">Stay up-to-date with current activities and future events by following us on your favorite social media channels.</p>
+                </mj-text>
+                <mj-social icon-size="30px" mode="horizontal" align="left">
+                    <mj-social-element href="https://www.facebook.com/" src="https://i.postimg.cc/Vv0KVRmL/facebook-icon.png" alt="Facebook icon"></mj-social-element>
+                    <mj-social-element href="https://www.instagram.com/" src="https://i.postimg.cc/DwhK1WPb/twitter-icon.png" alt="Twitter icon"></mj-social-element>
+                    <mj-social-element href="https://twitter.com/" src="https://i.postimg.cc/gcfpktws/instagram-icon.png" alt="Instagram icon"></mj-social-element>
+                </mj-social>
+            </mj-column>
+            <mj-column width="290px">
+                <mj-text line-height="15px">
+                    <p style="font-size: 18px; font-weight: 800; color: #33563c;">Where To Find Us</p>
+                    <p style="font-size: 12px; color: #33563c;"><a href="https://www.example.com/" style="color= #33563c;">www.company.com<a> Company address here +1 310 123 4567</p>
+                    <p style="font-size: 12px; color: #33563c;">Changed your mind? <a href="https://www.example.com/" style="color: #33563c;">Unsubscribe</a></p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+    </mj-body> 
+</mjml>
